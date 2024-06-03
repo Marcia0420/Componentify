@@ -1,0 +1,61 @@
+.introview {
+  background: linear-gradient(-45deg, #ee765284, #e73c7e7b, #23a5d535, #23d5ab32);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 20s ease infinite;
+	        animation: gradient 20s ease infinite;
+}
+
+
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+
+
+  
+.rotate-animation {
+    animation: rotate 30s infinite; 
+}
+  
+.logo-intro {
+        filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.42)); 
+}
+
+
+ @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+    
+  .custom-btn {
+    background-color: #FD5812;
+  }

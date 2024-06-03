@@ -1,0 +1,1162 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* color palette */
+
+:root {
+    /* RISK */
+    --color-risk-bg: #ffcccc;
+    --color-risk-border: #fcadad;
+    --color-risk-txt: #dc3545;
+    --color-risk:#ff3939;
+
+    /* CAUTION */
+    --color-caution-bg: #fff3cd; 
+    --color-caution-border: #ffeeba; 
+    --color-caution-txt: #856404;
+    --color-caution:#ffca28;
+
+    /* SILVER */
+    --color-silver-bg: #e5e5e5; 
+    --color-silver-border: #c8c8c8; 
+    --color-silver-txt: #555555;
+    --color-silver:#C0C0C0;
+
+    /* GOLD */
+    --color-gold-bg: #ffec80;
+    --color-gold-border: #e5c862; 
+    --color-gold-txt: #806105; 
+    --color-gold:#dfc223;
+
+    /* LIME */
+    --color-lime-bg: #b1efb1; 
+    --color-lime-border: #9ad79a; 
+    --color-lime-txt: #155724; 
+    --color-lime:#64f564;
+
+    /* AZURE */
+    --color-azure-bg: #b3d9ff;
+    --color-azure-border: #99b3cc; 
+    --color-azure-txt: #002080;
+    --color-azure:#007FFF;
+
+    /* MOCCA */
+    --color-mocca-bg: #c89669;
+    --color-mocca-border: #a57a4f; 
+    --color-mocca-txt: #613b1a;
+    --color-mocca:#8B4513;
+
+    /* AQUA */
+    --color-aqua-bg: #b5fafa;
+    --color-aqua-border: #99e6e6; 
+    --color-aqua-txt: #197e7e;
+    --color-aqua:#51f3f3;
+
+    /* SLATE */
+    --color-slate-bg: #c2cfd3;
+    --color-slate-border: #a4b5ba; 
+    --color-slate-txt: #34404a;
+    --color-slate:#708090;
+
+    /* COMPONENTIFY */
+    --color-componentify-bg: #ffc69b;
+    --color-componentify-border: #ff9e60; 
+    --color-componentify-txt: #FD5812;
+    --color-componentify:#FD5812;
+
+    /* LOLLYPOP */
+    --color-lollypop-bg: #ffd3eb;
+    --color-lollypop-border: #ffaac6; 
+    --color-lollypop-txt: #fc3f9e;
+    --color-lollypop:#f75daa;
+
+    /* MINT */
+    --color-mint-bg: #c3f2d9;
+    --color-mint-border: #a3d7ae; 
+    --color-mint-txt: #1a614a;
+    --color-mint:#3EB489;
+
+    /* GLOOMY */
+    --color-gloomy-bg: #dcdcdc;
+    --color-gloomy-border: #b0b0b0; 
+    --color-gloomy-txt: #000000;
+    --color-gloomy:#292b2e;
+
+    /* FOG */
+    --color-fog-bg: #f8f9fa;
+    --color-fog-border: #e8e9ea; 
+    --color-fog-txt: #747474;
+    --color-fog:#f8f9fa;
+
+    /* DARK */
+    --color-dark-bg: #000000;
+    --color-dark-border: #000000;
+    --color-dark-txt: #ffffff; 
+    --color-dark:#000000;
+
+    /* WIN */
+    --color-win-bg: #a8d8c7;
+    --color-win-border: #7ecca8; 
+    --color-win-txt: #0d4336;
+    --color-win:#198754;
+
+    /* LAVENDER */
+    --color-lavender-bg: #f5f1ff;
+    --color-lavender-border: #e2d5ff; 
+    --color-lavender-txt: #6b3eb0;
+    --color-lavender:#d6d6fa;
+
+    /* PURPLE */
+    --color-purple-bg: #f8d7f7;
+    --color-purple-border: #d8a9d5; 
+    --color-purple-txt: #8c0575;
+    --color-purple:#a008a0;
+  }
+
+/* TEXT COLORS */
+
+/* RISK */
+.text-risk {
+    color: var(--color-risk-txt)
+}
+/* CAUTION */
+.text-caution {
+    color: var(--color-caution-txt)
+}
+
+/* SILVER */
+.text-silver {
+    color: var(--color-silver-txt)
+}
+
+/* GOLD */
+.text-gold {
+   color: var(--color-gold-txt)
+}
+
+/* LIME */
+.text-lime {
+    color: var(--color-lime-txt)
+}
+
+/* AZURE */
+.text-azure {
+    color: var(--color-azure-txt)
+}
+
+/* MOCCA */
+.text-mocca {
+   color: var(--color-mocca-txt)
+}
+
+/* AQUA */
+.text-aqua {
+    color: var(--color-aqua-txt)
+}
+
+/* SLATE */
+.text-slate {
+    color: var(--color-slate-txt)
+}
+
+/* COMPONENTIFY */
+.text-componentify {
+    color: var(--color-componentify-txt)
+}
+
+/* LOLLYPOP */
+.text-lollypop {
+    color: var(--color-lollypop-txt)
+}
+
+/* MINT */
+.text-mint {
+    color: var(--color-mint-txt)
+}
+
+/* GLOOMY */
+.text-gloomy {
+    color: var(--color-gloomy-txt)
+}
+
+/* FOG */
+.text-fog {
+    color: var(--color-fog-txt)
+}
+
+/* DARK */
+.text-dark {
+    color:var(--color-dark-txt)
+}
+
+/* WIN */
+.text-win {
+    color:var(--color-win-txt)
+}
+
+/* LAVENDER */
+.text-lavender {
+    color: var(--color-lavender-txt)
+}
+
+/* PURPLE */
+.text-purple {
+    color:var(--color-purple-txt)
+}
+
+/* WHITE */
+
+.text-white {
+    color:#ffffff;
+}
+
+/* BACKGROUND COLORS */
+
+/* RISK */
+.bg-risk {
+    background-color: var(--color-risk-bg)
+}
+/* CAUTION */
+.bg-caution {
+    background-color: var(--color-caution-bg)
+}
+
+/* SILVER */
+.bg-silver {
+    background-color: var(--color-silver-bg)
+}
+
+/* GOLD */
+.bg-gold {
+    background-color: var(--color-gold-bg)
+}
+
+/* LIME */
+.bg-lime {
+    background-color: var(--color-lime-bg)
+}
+
+/* AZURE */
+.bg-azure {
+    background-color: var(--color-azure-bg)
+}
+
+/* MOCCA */
+.bg-mocca {
+    background-color: var(--color-mocca-bg)
+}
+
+/* AQUA */
+.bg-aqua {
+    background-color: var(--color-aqua-bg)
+}
+
+/* SLATE */
+.bg-slate {
+    background-color: var(--color-slate-bg)
+}
+
+/* COMPONENTIFY */
+.bg-componentify {
+    background-color: var(--color-componentify-bg)
+}
+
+/* LOLLYPOP */
+.bg-lollypop {
+    background-color: var(--color-lollypop-bg)
+}
+
+/* MINT */
+.bg-mint {
+    background-color: var(--color-mint-bg)
+}
+
+/* GLOOMY */
+.bg-gloomy {
+    background-color: var(--color-gloomy-bg)
+}
+
+/* FOG */
+.bg-fog {
+    background-color: var(--color-fog-bg)
+}
+
+/* DARK */
+.bg-dark {
+    background-color:var(--color-dark-bg)
+}
+
+/* WIN */
+.bg-win {
+    background-color:var(--color-win-bg)
+}
+
+/* LAVENDER */
+.bg-lavender {
+    background-color: var(--color-lavender-bg)
+}
+
+/* PURPLE */
+.bg-purple {
+    background-color:var(--color-purple-bg)
+}
+
+/* BORDER COLORS */
+
+/* RISK */
+.brd-risk {
+    border: solid 2px var(--color-risk-border)
+}
+/* CAUTION */
+.brd-caution {
+    border: solid 2px var(--color-caution-border)
+}
+
+/* SILVER */
+.brd-silver {
+    border: solid 2px var(--color-silver-border)
+}
+
+/* GOLD */
+.brd-gold {
+    border: solid 2px var(--color-gold-border)
+}
+
+/* LIME */
+.brd-lime {
+    border: solid 2px var(--color-lime-border)
+}
+
+/* AZURE */
+.brd-azure {
+    border: solid 2px var(--color-azure-border)
+}
+
+/* MOCCA */
+.brd-mocca {
+    border: solid 2px var(--color-mocca-border)
+}
+
+/* AQUA */
+.brd-aqua {
+    border: solid 2px var(--color-aqua-border)
+}
+
+/* SLATE */
+.brd-slate {
+    border: solid 2px var(--color-slate-border)
+}
+
+/* COMPONENTIFY */
+.brd-componentify {
+    border: solid 2px var(--color-componentify-border)
+}
+
+/* LOLLYPOP */
+.brd-lollypop {
+    border: solid 2px var(--color-lollypop-border)
+}
+
+/* MINT */
+.brd-mint {
+    border: solid 2px var(--color-mint-border)
+}
+
+/* GLOOMY */
+.brd-gloomy {
+    border: solid 2px var(--color-gloomy-border)
+}
+
+/* FOG */
+.brd-fog {
+    border: solid 2px var(--color-fog-border)
+}
+
+/* DARK */
+.brd-dark {
+    border: solid 2px var(--color-dark-border)
+}
+
+/* WIN */
+.brd-win {
+    border: solid 2px var(--color-win-border)
+}
+
+/* LAVENDER */
+.brd-lavender {
+    border: solid 2px var(--color-lavender-border)
+}
+
+/* PURPLE */
+.brd-purple {
+    border: solid 2px var(--color-purple-border)
+}
+
+/* SHADOWS */
+
+/* Shadow Risk */
+.c-shadow-risk {
+    box-shadow: 0 6px 20px rgba(220, 53, 69, 0.4);
+}
+
+/* Shadow Caution */
+.c-shadow-caution {
+    box-shadow: 0 6px 20px rgba(255, 202, 40, 0.4);
+}
+
+/* Shadow Silver */
+.c-shadow-silver {
+    box-shadow: 0 6px 20px rgba(196, 196, 196, 0.4);
+}
+
+/* Shadow Gold */
+.c-shadow-gold {
+    box-shadow: 0 6px 20px rgba(223, 194, 35, 0.4);
+}
+
+/* Shadow con color Lime */
+.c-shadow-lime {
+    box-shadow: 0 6px 20px rgba(100, 245, 100, 0.4);
+}
+
+/* Shadow con color Azure */
+.c-shadow-azure {
+    box-shadow: 0 6px 20px rgba(0, 127, 255, 0.4);
+}
+
+/* Shadow con color Mocca */
+.c-shadow-mocca {
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
+}
+
+/* Shadow con color Aqua */
+.c-shadow-aqua {
+    box-shadow: 0 6px 20px rgba(81, 243, 243, 0.4);
+}
+
+/* Shadow con color Slate */
+.c-shadow-slate {
+    box-shadow: 0 6px 20px rgba(112, 128, 144, 0.4);
+}
+
+/* Shadow con color Componentify */
+.c-shadow-componentify {
+    box-shadow: 0 6px 20px rgba(253, 88, 18, 0.4);
+}
+
+/* Shadow con color Lollypop */
+.c-shadow-lollypop {
+    box-shadow: 0 6px 20px rgba(247, 93, 170, 0.4);
+}
+
+/* Shadow con color Mint */
+.c-shadow-mint {
+    box-shadow: 0 6px 20px rgba(62, 180, 137, 0.4);
+}
+
+/* Shadow con color Gloomy */
+.c-shadow-gloomy {
+    box-shadow: 0 6px 20px rgba(41, 43, 46, 0.4);
+}
+
+/* Shadow con color Fog */
+.c-shadow-fog {
+    box-shadow: 0 6px 20px rgba(248, 249, 250, 0.4);
+}
+
+/* Shadow con color Dark */
+.c-shadow-dark {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Shadow con color Win */
+.c-shadow-win {
+    box-shadow: 0 6px 20px rgba(25, 135, 84, 0.4);
+}
+
+/* Shadow con color Lavender */
+.c-shadow-lavender {
+    box-shadow: 0 6px 20px rgba(214, 214, 250, 0.4);
+}
+
+/* Shadow con color Purple */
+.c-shadow-purple {
+    box-shadow: 0 6px 20px rgba(160, 8, 160, 0.4);
+}
+
+/* ALERTS */
+
+.c-alert {
+    padding: 1rem 1rem;
+    border-radius: 0.25rem
+}
+
+.c-alert-risk {
+    background-color: var(--color-risk-bg);
+    border: 1px solid var(--color-risk-border); 
+    color: var(--color-risk-txt); 
+}
+
+.c-alert-caution {
+    background-color: var(--color-caution-bg);
+    border: 1px solid var(--color-caution-border); 
+    color: var(--color-caution-txt); 
+}
+
+.c-alert-silver {
+    background-color: var(--color-silver-bg);
+    border: 1px solid var(--color-silver-border); 
+    color: var(--color-silver-txt); 
+}
+
+.c-alert-gold {
+    background-color: var(--color-gold-bg);
+    border: 1px solid var(--color-gold-border); 
+    color: var(--color-gold-txt); 
+}
+
+.c-alert-lime {
+    background-color: var(--color-lime-bg);
+    border: 1px solid var(--color-lime-border); 
+    color: var(--color-lime-txt); 
+}
+
+.c-alert-azure {
+    background-color: var(--color-azure-bg);
+    border: 1px solid var(--color-azure-border); 
+    color: var(--color-azure-txt); 
+}
+
+.c-alert-mocca {
+    background-color: var(--color-mocca-bg);
+    border: 1px solid var(--color-mocca-border); 
+    color: var(--color-mocca-txt); 
+}
+
+.c-alert-aqua {
+    background-color: var(--color-aqua-bg);
+    border: 1px solid var(--color-aqua-border); 
+    color: var(--color-aqua-txt); 
+}
+
+.c-alert-slate {
+    background-color: var(--color-slate-bg);
+    border: 1px solid var(--color-slate-border); 
+    color: var(--color-slate-txt); 
+}
+
+.c-alert-componentify {
+    background-color: var(--color-componentify-bg);
+    border: 1px solid var(--color-componentify-border); 
+    color: var(--color-componentify-txt); 
+}
+
+.c-alert-lollypop {
+    background-color: var(--color-lollypop-bg);
+    border: 1px solid var(--color-lollypop-border); 
+    color: var(--color-lollypop-txt); 
+}
+
+.c-alert-mint {
+    background-color: var(--color-mint-bg);
+    border: 1px solid var(--color-mint-border); 
+    color: var(--color-mint-txt); 
+}
+
+.c-alert-gloomy {
+    background-color: var(--color-gloomy-bg);
+    border: 1px solid var(--color-gloomy-border); 
+    color: var(--color-gloomy-txt); 
+}
+
+.c-alert-fog {
+    background-color: var(--color-fog-bg);
+    border: 1px solid var(--color-fog-border); 
+    color: var(--color-fog-txt); 
+}
+
+.c-alert-dark {
+    background-color: var(--color-dark-bg);
+    border: 1px solid var(--color-dark-border); 
+    color: var(--color-dark-txt); 
+}
+
+.c-alert-win {
+    background-color: var(--color-win-bg);
+    border: 1px solid var(--color-win-border); 
+    color: var(--color-win-txt); 
+}
+
+.c-alert-lavender {
+    background-color: var(--color-lavender-bg);
+    border: 1px solid var(--color-lavender-border); 
+    color: var(--color-lavender-txt); 
+}
+
+.c-alert-purple {
+    background-color: var(--color-purple-bg);
+    border: 1px solid var(--color-purple-border); 
+    color: var(--color-purple-txt); 
+}
+
+/* CLOSE BUTTON IN ALERTS */
+/* .c-btn-close {
+        box-sizing: content-box;
+        width: 1em;
+        height: 1em;
+        padding: 0.25em 0.25em;
+        color: white;
+        border: 0;
+        border-radius: 0.375rem;
+        opacity: .5;
+}
+
+.c-alert .c-btn-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        padding: 1rem 1rem;
+} */
+
+/* BUTTONS */
+.c-btn {
+    margin:0.25rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 450;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.02857em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+.c-btn-risk {
+    background-color: var(--color-risk-bg);
+    color: var(--color-risk-txt); 
+}
+
+.c-btn-risk-hover:hover {
+    background-color: var(--color-risk-txt);
+    color: var(--color-risk-bg); 
+}
+
+.c-btn-caution {
+    background-color: var(--color-caution-bg);
+    color: var(--color-caution-txt); 
+}
+
+.c-btn-caution-hover:hover {
+    background-color: var(--color-caution-txt);
+    color: var(--color-caution-bg); 
+}
+
+.c-btn-silver {
+    background-color: var(--color-silver-bg);
+    color: var(--color-silver-txt);  
+}
+
+.c-btn-silver-hover:hover {
+    background-color: var(--color-silver-txt);
+    color: var(--color-silver-bg); 
+}
+
+.c-btn-gold {
+    background-color: var(--color-gold-bg);
+    color: var(--color-gold-txt); 
+}
+
+.c-btn-gold-hover:hover {
+    background-color: var(--color-gold-txt);
+    color: var(--color-gold-bg); 
+}
+
+.c-btn-lime {
+    background-color: var(--color-lime-bg);
+    color: var(--color-lime-txt); 
+}
+
+.c-btn-lime-hover:hover {
+    background-color: var(--color-lime-txt);
+    color: var(--color-lime-bg); 
+}
+
+.c-btn-azure {
+    background-color: var(--color-azure-bg);
+    color: var(--color-azure-txt); 
+}
+
+.c-btn-azure-hover:hover {
+    background-color: var(--color-azure-txt);
+    color: var(--color-azure-bg); 
+}
+
+.c-btn-mocca {
+    background-color: var(--color-mocca-bg);
+    color: var(--color-mocca-txt); 
+}
+
+.c-btn-mocca-hover:hover {
+    background-color: var(--color-mocca-txt);
+    color: var(--color-mocca-bg); 
+}
+
+.c-btn-aqua {
+    background-color: var(--color-aqua-bg);
+    color: var(--color-aqua-txt); 
+}
+
+.c-btn-aqua-hover:hover {
+    background-color: var(--color-aqua-txt);
+    color: var(--color-aqua-bg); 
+}
+
+.c-btn-slate {
+    background-color: var(--color-slate-bg);
+    color: var(--color-slate-txt); 
+}
+
+.c-btn-slate-hover:hover {
+    background-color: var(--color-slate-txt);
+    color: var(--color-slate-bg); 
+}
+
+.c-btn-componentify {
+    background-color: var(--color-componentify-bg);
+    color: var(--color-componentify-txt); 
+}
+
+.c-btn-componentify-hover:hover {
+    background-color: var(--color-componentify-txt);
+    color: var(--color-componentify-bg); 
+}
+
+.c-btn-lollypop {
+    background-color: var(--color-lollypop-bg);
+    color: var(--color-lollypop-txt); 
+}
+
+.c-btn-lollypop-hover:hover {
+    background-color: var(--color-lollypop-txt);
+    color: var(--color-lollypop-bg); 
+}
+
+.c-btn-mint {
+    background-color: var(--color-mint-bg);
+    color: var(--color-mint-txt); 
+}
+
+.c-btn-mint-hover:hover {
+    background-color: var(--color-mint-txt);
+    color: var(--color-mint-bg); 
+}
+
+.c-btn-gloomy {
+    background-color: var(--color-gloomy-bg); 
+    color: var(--color-gloomy-txt); 
+}
+
+.c-btn-gloomy-hover:hover {
+    background-color: var(--color-gloomy-txt);
+    color: var(--color-gloomy-bg); 
+}
+
+.c-btn-fog {
+    background-color: var(--color-fog-bg);
+    color: var(--color-fog-txt); 
+}
+
+.c-btn-fog-hover:hover {
+    background-color: var(--color-fog-txt);
+    color: var(--color-fog-bg); 
+}
+
+.c-btn-dark {
+    background-color: var(--color-dark-bg);
+    color: var(--color-dark-txt); 
+}
+
+.c-btn-dark-hover:hover {
+    background-color: var(--color-dark-txt);
+    color: var(--color-dark-bg); 
+}
+
+.c-btn-win {
+    background-color: var(--color-win-bg);
+    color: var(--color-win-txt); 
+}
+
+.c-btn-win-hover:hover {
+    background-color: var(--color-win-txt);
+    color: var(--color-win-bg); 
+}
+
+.c-btn-lavender {
+    background-color: var(--color-lavender-bg); 
+    color: var(--color-lavender-txt); 
+}
+
+.c-btn-lavender-hover:hover {
+    background-color: var(--color-lavender-txt);
+    color: var(--color-lavender-bg); 
+}
+
+.c-btn-purple {
+    background-color: var(--color-purple-bg); 
+    color: var(--color-purple-txt); 
+}
+
+.c-btn-purple-hover:hover {
+    background-color: var(--color-purple-txt);
+    color: var(--color-purple-bg); 
+}
+
+/* IMAGE CARDS */
+
+.c-card {
+    max-width: 20rem;
+    border: 1px solid var(--color-fog-border);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-fog-bg);
+    text-align: left;
+}
+
+.c-card-image {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.c-card-content {
+    padding: 1rem;
+}
+
+.c-card-title {
+    font-size: 1.25rem;
+}
+
+.c-card-description {
+    font-size: 1rem;
+}
+
+/* SIMPLE BORDER CARDS */
+
+.c-card-brd-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin:0;
+}
+
+.c-card-brd-purple {
+    margin: 0;
+    border-color: var(--color-purple-txt); 
+    background-color:var(--color-purple-bg);
+}
+
+.c-card-header-purple {
+    padding: 0.75rem 1.25rem; 
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--color-purple-txt);
+}
+
+.c-card-brd-lavender {
+    margin: 0;
+    border-color: var(--color-lavender-txt); 
+    background-color:var(--color-lavender-bg);
+}
+
+.c-card-header-lavender {
+    padding: 0.75rem 1.25rem; 
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--color-lavender-txt);
+}
+
+.c-card-brd-azure {
+    margin: 0;
+    border-color: var(--color-azure-txt); 
+    background-color:var(--color-azure-bg);
+}
+
+.c-card-header-azure {
+    padding: 0.75rem 1.25rem; 
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--color-azure-txt);
+}
+
+.c-card-brd-mocca {
+    margin: 0;
+    border-color: var(--color-mocca-txt); 
+    background-color:var(--color-mocca-bg);
+}
+
+.c-card-header-mocca {
+    padding: 0.75rem 1.25rem; 
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--color-mocca-txt);
+}
+
+.c-card-brd-description {
+    font-size: 1rem;
+    margin:0;
+}
+
+
+/* CREDIT CARD STYLE */
+
+
+/* BADGES */
+
+.c-badge {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+/* BANNERS */
+
+.c-banner {
+    padding: 2rem 1rem;
+    border-radius: 0.3rem; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* title */
+  .display-4 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* p */
+  .c-lead {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* hr */
+  .c-my-4 {
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 1rem 0;
+  }
+  
+  /* p secondary */
+  .c-banner p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .c-banner a {
+    text-decoration:none;
+  }
+
+
+/* PROGRESS BARS */
+
+.c-progress-25 {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 9px;
+  }
+  
+  .c-progress-25-bar {
+    width: 0;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    animation: c-progress-25 3s ease-in-out forwards;
+    border-radius: 4px;
+  }
+  
+  .c-progress-text {
+    display: block;
+  }
+  
+  /* animation 25 % */
+  @keyframes c-progress-25 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 25%;
+    }
+  }
+
+  .c-progress-50 {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 9px;
+  }
+  
+  .c-progress-50-bar {
+    width: 0;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    animation: c-progress-50 3s ease-in-out forwards;
+    border-radius: 4px;
+  }
+  
+  .c-progress-text {
+    display: block;
+  }
+  
+  /* animation 50 % */
+  @keyframes c-progress-50 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+
+  .c-progress-75 {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 9px;
+  }
+  
+  .c-progress-75-bar {
+    width: 0;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    animation: c-progress-75 3s ease-in-out forwards;
+    border-radius: 4px;
+  }
+  
+  .c-progress-text {
+    display: block;
+  }
+  
+  /* animation 75 % */
+  @keyframes c-progress-75 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 75%;
+    }
+  }
+
+  .c-progress-100 {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 9px;
+  }
+  
+  .c-progress-100-bar {
+    width: 0;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    animation: c-progress-100 3s ease-in-out forwards;
+    border-radius: 4px;
+  }
+  
+  .c-progress-text {
+    display: block;
+  }
+  
+  /* animation 100 % */
+  @keyframes c-progress-100 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+ /* FORM */
+ .c-contact-form-azure {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    border-left: solid 2px var(--color-azure)
+  }
+  
+  .c-form {
+    margin-top: 10px;
+  }
+  
+  .c-form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .c-form-control-azure {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .c-form-control-azure:focus {
+    outline: none;
+    border-color: var(--color-azure-border);
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .c-contact-form-lavender {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    border-left: solid 3px var(--color-lavender)
+  }
+
+  .c-form-control-lavender {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .c-form-control-lavender:focus {
+    outline: none;
+    border-color: var(--color-lavender-border);
+    box-shadow: 0 0 5px rgba(213, 214, 255, 0.5);
+  }
+  
+  .c-contact-form-mint {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    border-left: solid 3px var(--color-mint)
+  }
+
+  .c-form-control-mint {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .c-form-control-mint:focus {
+    outline: none;
+    border-color: var(--color-mint-border);
+    box-shadow: 0 0 5px rgba(62, 180, 137, 0.5);
+  }
+  
